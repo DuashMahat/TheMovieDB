@@ -8,7 +8,10 @@
 
 import Foundation
 /*
-    Dear Felipe and  Caio
+ 
+ 
+ 
+    Dear Felipe and  Caio.
  
         Below is a short describtion of the reason why i used what patterns/designs etc that i used.
     
@@ -29,5 +32,7 @@ import Foundation
         5:
  
                I used extenstions almost everywhere to separate code logic with Marks.
+ 
+       
  
  */
