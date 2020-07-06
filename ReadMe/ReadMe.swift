@@ -15,7 +15,7 @@ import Foundation
       
         Below is a short describtion of the reason why i used what patterns/designs etc that i used.
           0:
-             =======AUTO LAYOUT FINALIZING =========
+             =======AUTO LAYOUT FINALIZING SOON  =========
              Please run with physical iphone 11 or Iphone 11 simulator . I did layout with iphone 11. I WILL FIX THE AUTO LAYOUT ISSUES IN FEW HOURS .
              
           1: THIRD PARTY LIBRARIES:
