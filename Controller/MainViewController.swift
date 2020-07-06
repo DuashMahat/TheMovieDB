@@ -12,7 +12,6 @@ import UIKit
    Checking Landscape mode : View can now be in landscape and portrait as well
  */
 class MainViewController: UIViewController {
-   
     @IBOutlet weak var moviesTableView: UITableView!
     let searchcontroller = UISearchController(searchResultsController: nil);
     var movies = [Movie]()
@@ -51,7 +50,7 @@ class MainViewController: UIViewController {
         ConfigureCellView()
     }
 
-   func response ()  {
+   func response () {
         networkHandler.response(url: UrlPath.path.sharePathUrl()) { (movs: Movies ) in
             print(UrlPath.path.sharePathUrl())
             self.movies = movs.results
@@ -90,7 +89,7 @@ extension MainViewController : UITableViewDataSource  {
 //MARK:- TableView Delegate
 extension MainViewController : UITableViewDelegate   {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        tableView.deselectRow(at: indexPath, animated: true)
+//        tableView.deselectRow(at: indexPath, animated: true)
         let storyB = UIStoryboard(name: "Main", bundle: nil)
         let moviess : [Movie] = (isfiltered == true) ? filteredMovs :  movies
         guard let url = URL(string: UrlPath.path.sharePathImg() + moviess[indexPath.row].poster_path) else {return}
