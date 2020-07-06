@@ -15,8 +15,7 @@ import Foundation
       
         Below is a short describtion of the reason why i used what patterns/designs etc that i used.
           0:
-             =======AUTO LAYOUT FINALIZING SOON IN FEW HOURS =========
-             Please run with physical iphone 11 or Iphone 11 simulator . I did layout with iphone 11. I WILL FIX THE AUTO LAYOUT ISSUES IN FEW HOURS .
+             Did autolayout fixed 
              
           1: THIRD PARTY LIBRARIES:
                I did not use any third part libary . I could have used Alamofire for networking and sdWebImage for image loading.
