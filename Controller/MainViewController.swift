@@ -89,7 +89,7 @@ extension MainViewController : UITableViewDataSource  {
 //MARK:- TableView Delegate
 extension MainViewController : UITableViewDelegate   {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        tableView.deselectRow(at: indexPath, animated: true)
+        tableView.deselectRow(at: indexPath, animated: true)
         let storyB = UIStoryboard(name: "Main", bundle: nil)
         let moviess : [Movie] = (isfiltered == true) ? filteredMovs :  movies
         guard let url = URL(string: UrlPath.path.sharePathImg() + moviess[indexPath.row].poster_path) else {return}
