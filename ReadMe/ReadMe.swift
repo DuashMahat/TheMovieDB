@@ -24,7 +24,7 @@ import Foundation
                 My API link has no video or the movie link homepage so did not do that . I used every variable found in the API
  
         3:
-                Please run with physical iphone 11 or Iphone 11 simulator . I did layout with iphone 11
+                Please run with physical iphone 11 or Iphone 11 simulator . I did layout with iphone 11. I WILL FIX THE AUTO LAYOUT ISSUES IN FEW HOURS 
  
         4:
    
